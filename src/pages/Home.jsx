@@ -1,11 +1,12 @@
 import LoginComponent from "../components/LoginComponent";
+import { Container } from "@mantine/core";
 
 function Home() {
   return (
-    <>
-      <h2>Home Page</h2>
+    <Container mt="lg">
       <LoginComponent/>
-    </>
+    </Container>
+
   );
 }
 
